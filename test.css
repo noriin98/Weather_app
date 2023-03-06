@@ -1,0 +1,153 @@
+body {
+    font-family: arial, sans-serif !important;
+    color: #3e4a61;
+}
+
+
+#form {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#form input {
+    color: #06283D;
+    width: 80%;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 32px;
+}
+
+#form input::placeholder {
+    font-size: 20px;
+    font-weight: 500;
+    color: #06283D;
+    text-transform: capitalize;
+}
+
+#form i {
+    color: #06283D;
+    font-size: 28px;
+    position: relative;
+    right: -40px;
+}
+
+form botton{
+    position: relative;
+    left: -80px;
+}
+
+.lis li {
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+.andre li {
+    list-style: none;
+    padding: 0 0 7px;
+}
+
+.img{
+    position: relative;
+    left: -80px;
+}
+
+.temperatur{
+position: relative;
+left: -50px;
+bottom: -60px;
+}
+
+.vaer{
+    position: relative;
+        left: -50px;
+        bottom: -50px;
+}
+
+.temp {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.description{
+    position: relative;
+    left: -20px;
+    bottom: -55px;
+    white-space: nowrap;
+
+}
+
+.units {
+    position: relative;
+    top: -25px;
+}
+
+.row {
+    padding: 60px;
+}
+
+.fem {
+    display: flex;
+}
+
+.seks {
+    display: inline;
+    padding: 20px 50px;
+}
+
+.sju {
+    display: inline;
+    padding: 20px 50px;
+}
+
+.åtte {
+    display: inline;
+    padding: 20px 50px;
+}
+
+.ni {
+    display: inline;
+    padding: 20px 50px;
+}
+
+.ti {
+    display: inline;
+    padding: 20px 50px;
+}
+
+.weather_app {
+    border: 1px solid black;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 750px;
+    max-height: 550px;
+    background-image: url("./bakgrunn6.gif");
+    background-size: cover;
+    background-color: #e4f1fe;
+}
+
+#city {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#celsius-link {
+    color: black;
+}
+
+#description {
+    text-transform: capitalize;
+}
+
+.weather-forcast{
+position: relative;
+top: -70px;
+
+}
+
+
