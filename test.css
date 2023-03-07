@@ -3,7 +3,6 @@ body {
     color: #3e4a61;
 }
 
-
 #form {
     width: 100%;
     height: min-content;
@@ -13,7 +12,7 @@ body {
 }
 
 #form input {
-    color: #06283D;
+    color: #06283d;
     width: 80%;
     font-size: 24px;
     font-weight: 500;
@@ -24,18 +23,18 @@ body {
 #form input::placeholder {
     font-size: 20px;
     font-weight: 500;
-    color: #06283D;
+    color: #06283d;
     text-transform: capitalize;
 }
 
 #form i {
-    color: #06283D;
+    color: #06283d;
     font-size: 28px;
     position: relative;
     right: -40px;
 }
 
-form botton{
+form botton {
     position: relative;
     left: -80px;
 }
@@ -50,21 +49,21 @@ form botton{
     padding: 0 0 7px;
 }
 
-.img{
+.img {
     position: relative;
-    left: -80px;
+    left: -50px;
 }
 
-.temperatur{
-position: relative;
-left: -50px;
-bottom: -60px;
+.temperatur {
+    position: relative;
+    left: -50px;
+    bottom: -60px;
 }
 
-.vaer{
+.vaer {
     position: relative;
-        left: -50px;
-        bottom: -50px;
+    left: -50px;
+    bottom: -50px;
 }
 
 .temp {
@@ -72,12 +71,11 @@ bottom: -60px;
     font-weight: 400;
 }
 
-.description{
+.description {
     position: relative;
     left: -20px;
     bottom: -55px;
     white-space: nowrap;
-
 }
 
 .units {
@@ -85,7 +83,7 @@ bottom: -60px;
     top: -25px;
 }
 
-.row {
+.container-general {
     padding: 60px;
 }
 
@@ -124,7 +122,7 @@ bottom: -60px;
     margin: 20px auto;
     border-radius: 10px;
     max-width: 750px;
-    max-height: 550px;
+    max-height: 650px;
     background-image: url("./bakgrunn6.gif");
     background-size: cover;
     background-color: #e4f1fe;
@@ -144,10 +142,9 @@ bottom: -60px;
     text-transform: capitalize;
 }
 
-.weather-forcast{
-position: relative;
-top: -70px;
-
+.weather-forcast {
+    position: relative;
+    margin-bottom: 40px;
+    text-align: center;
 }
-
 
