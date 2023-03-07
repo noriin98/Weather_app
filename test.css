@@ -51,7 +51,7 @@ form botton {
 
 .img {
     position: relative;
-    left: -50px;
+    left: -75px;
 }
 
 .temperatur {
@@ -146,5 +146,9 @@ form botton {
     position: relative;
     margin-bottom: 40px;
     text-align: center;
+}
+
+p{
+    margin: 0 0 0 280px;
 }
 
